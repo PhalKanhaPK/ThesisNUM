@@ -27,7 +27,10 @@ class HomeActivity : AppCompatActivity() {
                     replaceFragment(FavoriteFragment())
                     true
                 }
-
+                R.id.Account_layouts -> {
+                    replaceFragment(AccountFragment())
+                    true
+                }
                 else -> {
                     replaceFragment(HomeFragment())
                     true
