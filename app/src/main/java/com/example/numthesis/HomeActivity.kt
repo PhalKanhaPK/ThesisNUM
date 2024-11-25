@@ -15,7 +15,6 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         replaceFragment(HomeFragment())
-
         setContentView(R.layout.activity_home)
         bottomNavigationView = findViewById(R.id.navigationButton)
         bottomNavigationView.setOnItemSelectedListener {
