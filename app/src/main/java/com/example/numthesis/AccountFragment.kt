@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.appcompat.widget.ActivityChooserView.InnerLayout
 
-@Suppress("UNREACHABLE_CODE")
 class AccountFragment : Fragment() {
 
     override fun onCreateView(
@@ -19,7 +18,6 @@ class AccountFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_account, container, false)
 
         // Inflate the layout for this fragment
-
         //return inflater.inflate(R.layout.fragment_account, container, false)
         val btnLogout = view.findViewById<Button>(R.id.btnLogout)
 

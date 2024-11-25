@@ -3,69 +3,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".AccountFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <LinearLayout
-        android:id="@+id/picProfile"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        <ImageView
-            android:layout_gravity="center"
-            android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:src="@drawable/baseline_account_circle_24"
-            android:background="@color/white"/>
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_margin="10dp">
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:src="@drawable/baseline_account_circle_24" />
 
             <TextView
                 android:id="@+id/lblUsername"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="User Name"
-                android:textSize="10pt"
-                android:textStyle="bold"
+                android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textAlignment="center"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="ជំនាញ: IT"
-                android:textSize="8pt"
-                android:textAlignment="center"
-                android:textColor="@color/white"/>
-              <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="ជំនាន់: 30"
-                android:textSize="8pt"
-                android:textAlignment="center"
-                  android:textColor="@color/white"/>
-              <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="ក្រុម: 45"
-                android:textSize="8pt"
-                android:textAlignment="center"
-                  android:textColor="@color/white"/>
-        </LinearLayout>
-        <Button
-            android:id="@+id/btnLogout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:text="Logout"
-            android:textColor="@color/red"
-            android:textSize="9pt"
-            android:textStyle="bold"/>
-    </LinearLayout>
+                android:textSize="10pt"/>
 
+            <ListView
+                android:id="@+id/userInfo_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:text="Logout"
+                android:textColor="@color/red"
+                android:textSize="9pt" />
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>
