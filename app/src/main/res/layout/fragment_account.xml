@@ -33,9 +33,10 @@
                 android:textSize="10pt"/>
 
             <ListView
-                android:id="@+id/userInfo_list"
+                android:id="@+id/ListView_userInfo"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="350dp"
+                android:cacheColorHint="@color/white"/>
 
             <Button
                 android:id="@+id/btnLogout"
