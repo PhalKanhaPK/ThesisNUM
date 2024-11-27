@@ -20,7 +20,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_gravity="center"
-                android:background="@color/white"
                 android:src="@drawable/baseline_account_circle_24" />
 
             <TextView

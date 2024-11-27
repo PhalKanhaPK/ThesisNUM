@@ -26,11 +26,11 @@ class AccountFragment : Fragment() {
         }
 
         val countries = listOf(
-            Country(R.drawable.baseline_account_circle_24, "ជំនាញ : IT"),
-            Country(R.drawable.baseline_account_circle_24, "ជំនាន់ : ៣០"),
-            Country(R.drawable.baseline_account_circle_24, "ក្រុម : ៤៥"),
-            Country(R.drawable.baseline_account_circle_24, "លេខទូរស័ព្ទ : 0987654321"),
-            Country(R.drawable.baseline_account_circle_24, "Gmail : example123@gmail.com")
+            Country(R.drawable.major, "ជំនាញ : IT"),
+            Country(R.drawable.level, "ជំនាន់ : ៣០"),
+            Country(R.drawable.group, "ក្រុម : ៤៥"),
+            Country(R.drawable.phone, "លេខទូរស័ព្ទ : 0987654321"),
+            Country(R.drawable.gmail, "Gmail : example123@gmail.com")
         )
 
         val listView: ListView = view.findViewById(R.id.ListView_userInfo)
