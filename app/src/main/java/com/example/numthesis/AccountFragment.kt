@@ -10,11 +10,11 @@ import android.widget.Button
 import android.widget.ListView
 
 class AccountFragment : Fragment() {
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_account, container, false)
         val btnLogout = view.findViewById<Button>(R.id.btnLogout)
         btnLogout?.setOnClickListener {
