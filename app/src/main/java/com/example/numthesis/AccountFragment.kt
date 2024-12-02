@@ -7,10 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.ImageView
-import android.widget.ListAdapter
 import android.widget.ListView
-import android.widget.TextView
 
 class AccountFragment : Fragment() {
 
@@ -25,16 +22,16 @@ class AccountFragment : Fragment() {
             startActivity(intent)
         }
 
-        val countries = listOf(
-            Country(R.drawable.major, "ជំនាញ : IT"),
-            Country(R.drawable.level, "ជំនាន់ : ៣០"),
-            Country(R.drawable.group, "ក្រុម : ៤៥"),
-            Country(R.drawable.phone, "លេខទូរស័ព្ទ : 0987654321"),
-            Country(R.drawable.gmail, "Gmail : example123@gmail.com")
+        val UserInfo = listOf(
+            Info(R.drawable.major, "ជំនាញ : IT"),
+            Info(R.drawable.level, "ជំនាន់ : ៣០"),
+            Info(R.drawable.group, "ក្រុម : ៤៥"),
+            Info(R.drawable.phone, "លេខទូរស័ព្ទ : 0987654321"),
+            Info(R.drawable.gmail, "Gmail : example123@gmail.com")
         )
 
         val listView: ListView = view.findViewById(R.id.ListView_userInfo)
-        val adapter = CountryAdapter(requireContext(), countries)
+        val adapter = UserInfoAdapter(requireContext(), UserInfo)
         listView.adapter = adapter
 
         return view
