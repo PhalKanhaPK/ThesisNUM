@@ -71,12 +71,9 @@
                     android:layout_marginLeft="30dp"
                     />
 
-                <include layout="@layout/cardview_2"/>
-                <include layout="@layout/cardview_2"/>
-                <include layout="@layout/cardview_2"/>
-                <include layout="@layout/cardview_2"/>
-                <include layout="@layout/cardview_2"/>
-                <include layout="@layout/cardview_2"/>
+
+
+
 
             </LinearLayout>
 

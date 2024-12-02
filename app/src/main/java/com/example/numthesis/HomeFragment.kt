@@ -17,13 +17,14 @@ class HomeFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_home, container, false)
         val cardView = view.findViewById<CardView>(R.id.card1)
         cardView?.setOnClickListener{
-            // Create an instance of the fragment you want to display
-            val groupFragment = GroupFragment()
-           // Replace the current fragment with the new fragment
-           val transaction = parentFragmentManager.beginTransaction()
-           transaction.replace(R.id.fragmentContainerView, groupFragment) // Use the ID of your container
-           transaction.addToBackStack(null) // Optional: Add to back stack to allow user to navigate back
-           transaction.commit()
+//            val groupFragment = GroupFragment()
+//           val transaction = parentFragmentManager.beginTransaction()
+//           transaction.replace(R.id.fragmentContainerView, groupFragment)
+//           transaction.addToBackStack(null)
+//           transaction.commit()
+
+            val intent = Intent(requireContext(), GroupFragment::class.java)
+            startActivity(intent)
         }
 
         return view
