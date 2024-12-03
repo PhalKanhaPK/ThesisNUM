@@ -33,7 +33,6 @@ class AccountFragment : Fragment() {
         val listView: ListView = view.findViewById(R.id.ListView_userInfo)
         val adapter = UserInfoAdapter(requireContext(), UserInfo)
         listView.adapter = adapter
-
         return view
     }
 }

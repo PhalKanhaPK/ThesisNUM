@@ -4,25 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".GroupFragment">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    tools:context=".ThesisFragment">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <!--            textView-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
@@ -33,7 +23,7 @@
                     android:textColor="@color/white"
                     android:text="What Would You Like To Find?"
                     />
-            </LinearLayout>
+
             <!--            txtSearch-->
             <LinearLayout
                 android:layout_width="match_parent"
@@ -47,7 +37,7 @@
                     android:hint="Find any thesis..."/>
             </LinearLayout>
 
-            <!--            Information Technology-->
+            <!--            Thesis List-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -60,6 +50,7 @@
                     android:text="ជំនាន់ទី២៩"
                     android:textSize="8pt"
                     android:textColor="@color/white"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -69,17 +60,11 @@
                     android:textColor="@color/white"
                     android:layout_marginLeft="30dp"/>
 
-                <include layout="@layout/item_group"/>
-                <include layout="@layout/item_group"/>
-                <include layout="@layout/item_group"/>
-                <include layout="@layout/item_group"/>
-                <include layout="@layout/item_group"/>
-                <include layout="@layout/item_group"/>
-                <include layout="@layout/item_group"/>
-
             </LinearLayout>
-
+            <ListView
+                android:id="@+id/list_thesis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
         </LinearLayout>
-    </ScrollView>
 
 </FrameLayout>
