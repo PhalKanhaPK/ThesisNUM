@@ -21,10 +21,10 @@ class ThesisFragment : Fragment() {
             dataThesis(R.drawable.pdf, "កក្រុម ទី៣","Desktop Application"),
             dataThesis(R.drawable.pdf, "ក្រុម ទី៤","Database"),
             dataThesis(R.drawable.pdf, "ក្រុម ទី៥","Network"),
-            dataThesis(R.drawable.pdf, "ក្រុម ទី៥","Network"),
-            dataThesis(R.drawable.pdf, "ក្រុម ទី៥","Network"),
-            dataThesis(R.drawable.pdf, "ក្រុម ទី៥","Network"),
-            dataThesis(R.drawable.pdf, "ក្រុម ទី៥","Network")
+            dataThesis(R.drawable.pdf, "ក្រុម ទី៦","Cyber Security"),
+            dataThesis(R.drawable.pdf, "ក្រុម ទី៧","IOS Deviloper"),
+            dataThesis(R.drawable.pdf, "ក្រុម ទី៨","C# .NET framwork"),
+            dataThesis(R.drawable.pdf, "ក្រុម ទី៩","ASP.NET")
         )
 
         val listView: ListView = view.findViewById(R.id.list_thesis)
