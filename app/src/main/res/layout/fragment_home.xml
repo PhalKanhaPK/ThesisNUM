@@ -78,7 +78,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -133,7 +133,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -151,7 +151,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -195,7 +195,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -214,7 +214,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -232,7 +232,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -250,7 +250,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -268,7 +268,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -312,7 +312,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -331,7 +331,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -349,7 +349,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -367,7 +367,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -385,7 +385,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -429,7 +429,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -448,7 +448,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -466,7 +466,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -484,7 +484,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
@@ -502,7 +502,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="@dimen/card_margin"
                             app:cardCornerRadius="@dimen/card_corner_radius">
-                            <include layout="@layout/cardview_1"/>
+                            <include layout="@layout/cardview_gen"/>
                             <TextView
                                 android:layout_width="65dp"
                                 android:layout_height="wrap_content"
