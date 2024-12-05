@@ -72,10 +72,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
-                        <include layout="@layout/cardview_gen" />
-                        <include layout="@layout/cardview_gen" />
-                        <include layout="@layout/cardview_gen" />
-                        <include layout="@layout/cardview_gen" />
                         <!-- CardViews will be added here -->
 
                     </LinearLayout>
