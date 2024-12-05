@@ -25,6 +25,8 @@ class HomeFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_home, container, false)
         val itemList = ArrayList<String>() // Replace String with your data type
         database = FirebaseDatabase.getInstance().reference
+
+        // Read data from Firebase for major IT
         database.child("IT").addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 itemList.clear() // Clear the list before adding new data
@@ -33,7 +35,7 @@ class HomeFragment : Fragment() {
                     value?.let { itemList.add(it) } // Add the non-null value to the list
                 }
                 // Now itemList contains the data from the "IT" node
-                val linearLayout: LinearLayout = view.findViewById(R.id.cardContainer)
+                val linearLayout: LinearLayout = view.findViewById(R.id.ITCardContainer)
 //                val items = listOf("ជំនាន់ ទី២៦", "ជំនាន់ ទី២៧", "ជំនាន់ ទី២៨", "ជំនាន់ ទី២៩", "ជំនាន់ ទី៣០")
                 val adapter = cardAdapter(requireContext(), itemList)
                 for (i in 0 until adapter.count) {
@@ -46,6 +48,71 @@ class HomeFragment : Fragment() {
                 Log.e("FirebaseError", "Error: ${error.message}")
             }
         })
+        // Read data from Firebase for major Accounting
+        database.child("Accounting").addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                itemList.clear() // Clear the list before adding new data
+                for (childSnapshot in snapshot.children) {
+                    val value = childSnapshot.getValue(String::class.java) // Replace String with your data type
+                    value?.let { itemList.add(it) } // Add the non-null value to the list
+                }
+                // Now itemList contains the data from the "Accounting" node
+                val linearLayout: LinearLayout = view.findViewById(R.id.AccCardContainer)
+                val adapter = cardAdapter(requireContext(), itemList)
+                for (i in 0 until adapter.count) {
+                    val view = adapter.getView(i, null, linearLayout)
+                    linearLayout.addView(view)
+                }
+            }
+            override fun onCancelled(error: DatabaseError) {
+                // Handle database error
+                Log.e("FirebaseError", "Error: ${error.message}")
+            }
+        })
+        // Read data from Firebase for major Management
+        database.child("Management").addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                itemList.clear() // Clear the list before adding new data
+                for (childSnapshot in snapshot.children) {
+                    val value = childSnapshot.getValue(String::class.java) // Replace String with your data type
+                    value?.let { itemList.add(it) } // Add the non-null value to the list
+                }
+                // Now itemList contains the data from the "Management" node
+                val linearLayout: LinearLayout = view.findViewById(R.id.ManCardContainer)
+                val adapter = cardAdapter(requireContext(), itemList)
+                for (i in 0 until adapter.count) {
+                    val view = adapter.getView(i, null, linearLayout)
+                    linearLayout.addView(view)
+                }
+            }
+            override fun onCancelled(error: DatabaseError) {
+                // Handle database error
+                Log.e("FirebaseError", "Error: ${error.message}")
+            }
+        })
+// Read data from Firebase for major Management
+        database.child("Robot").addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                itemList.clear() // Clear the list before adding new data
+                for (childSnapshot in snapshot.children) {
+                    val value = childSnapshot.getValue(String::class.java) // Replace String with your data type
+                    value?.let { itemList.add(it) } // Add the non-null value to the list
+                }
+                // Now itemList contains the data from the "Robot" node
+                val linearLayout: LinearLayout = view.findViewById(R.id.RoCardContainer)
+                val adapter = cardAdapter(requireContext(), itemList)
+                for (i in 0 until adapter.count) {
+                    val view = adapter.getView(i, null, linearLayout)
+                    linearLayout.addView(view)
+                }
+            }
+            override fun onCancelled(error: DatabaseError) {
+                // Handle database error
+                Log.e("FirebaseError", "Error: ${error.message}")
+            }
+        })
+
+
         return view
     }
 }

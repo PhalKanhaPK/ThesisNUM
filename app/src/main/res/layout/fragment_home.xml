@@ -68,15 +68,98 @@
                     android:layout_height="wrap_content">
 
                     <LinearLayout
-                        android:id="@+id/cardContainer"
+                        android:id="@+id/ITCardContainer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
                         <!-- CardViews will be added here -->
-
                     </LinearLayout>
                 </HorizontalScrollView>
             </LinearLayout>
+            <!--Accounting-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Accounting"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    />
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AccCardContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <!-- CardViews will be added here -->
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+            <!--end Accounting-->
+            <!--Management-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Management"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    />
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/ManCardContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <!-- CardViews will be added here -->
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+            <!--end Management-->
+            <!--Robot-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Robot"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    />
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/RoCardContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <!-- CardViews will be added here -->
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+            <!--end Robot-->
         </LinearLayout>
     </ScrollView>
 
