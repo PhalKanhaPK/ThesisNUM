@@ -34,8 +34,8 @@ class HomeFragment : Fragment() {
             override fun onDataChange(snapshot: DataSnapshot) {
                 itemList.clear() // Clear the list before adding new data
                 for (childSnapshot in snapshot.children) {
-                    val value = childSnapshot.getValue(String::class.java) // Replace String with your data type
-                    value?.let { itemList.add(it) } // Add the non-null value to the list
+                    val Gen = childSnapshot.key
+                    Gen?.let { itemList.add(it) } // Add the non-null value to the list
                 }
                 // Now itemList contains the data from the "IT" node
                 val linearLayout: LinearLayout = view.findViewById(R.id.ITCardContainer)
@@ -57,20 +57,7 @@ class HomeFragment : Fragment() {
         database.child("Accounting").addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 itemList.clear() // Clear the list before adding new data
-                for (childSnapshot in snapshot.children) {
-                    val value = childSnapshot.getValue(String::class.java) // Replace String with your data type
-                    value?.let { itemList.add(it) } // Add the non-null value to the list
-                }
-                // Now itemList contains the data from the "Accounting" node
-                val linearLayout: LinearLayout = view.findViewById(R.id.AccCardContainer)
-                val adapter = cardAdapter(requireContext(), itemList)
-                {
-                        clickedText -> navigateToThesisFragment(clickedText)
-                }
-                for (i in 0 until adapter.count) {
-                    val view = adapter.getView(i, null, linearLayout)
-                    linearLayout.addView(view)
-                }
+
             }
             override fun onCancelled(error: DatabaseError) {
                 // Handle database error
@@ -81,20 +68,7 @@ class HomeFragment : Fragment() {
         database.child("Management").addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 itemList.clear() // Clear the list before adding new data
-                for (childSnapshot in snapshot.children) {
-                    val value = childSnapshot.getValue(String::class.java) // Replace String with your data type
-                    value?.let { itemList.add(it) } // Add the non-null value to the list
-                }
-                // Now itemList contains the data from the "Management" node
-                val linearLayout: LinearLayout = view.findViewById(R.id.ManCardContainer)
-                val adapter = cardAdapter(requireContext(), itemList)
-                {
-                        clickedText -> navigateToThesisFragment(clickedText)
-                }
-                for (i in 0 until adapter.count) {
-                    val view = adapter.getView(i, null, linearLayout)
-                    linearLayout.addView(view)
-                }
+
             }
             override fun onCancelled(error: DatabaseError) {
                 // Handle database error
@@ -105,20 +79,7 @@ class HomeFragment : Fragment() {
         database.child("Robot").addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 itemList.clear() // Clear the list before adding new data
-                for (childSnapshot in snapshot.children) {
-                    val value = childSnapshot.getValue(String::class.java) // Replace String with your data type
-                    value?.let { itemList.add(it) } // Add the non-null value to the list
-                }
-                // Now itemList contains the data from the "Robot" node
-                val linearLayout: LinearLayout = view.findViewById(R.id.RoCardContainer)
-                val adapter = cardAdapter(requireContext(), itemList)
-                {
-                    clickedText -> navigateToThesisFragment(clickedText)
-                }
-                for (i in 0 until adapter.count) {
-                    val view = adapter.getView(i, null, linearLayout)
-                    linearLayout.addView(view)
-                }
+
             }
             override fun onCancelled(error: DatabaseError) {
                 // Handle database error
