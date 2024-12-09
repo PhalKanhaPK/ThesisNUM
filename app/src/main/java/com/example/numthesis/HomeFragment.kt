@@ -16,8 +16,9 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 
 class HomeFragment : Fragment() {
-
-    private lateinit var database:  DatabaseReference
+//    private lateinit var database:  DatabaseReference
+    private lateinit var database: DatabaseReference
+    val databaseUrl = "https://numthesis-81c96-default-rtdb.firebaseio.com/" // Replace with your Firebase Realtime Database URL
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -26,8 +27,8 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_home, container, false)
         val itemList = ArrayList<String>() // Replace String with your data type
-        database = FirebaseDatabase.getInstance().reference
-
+        //database = FirebaseDatabase.getInstance().reference
+        database = FirebaseDatabase.getInstance(databaseUrl).reference
         // Read data from Firebase for major IT
         database.child("IT").addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
