@@ -16,7 +16,7 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 
 class HomeFragment : Fragment() {
-//    private lateinit var database:  DatabaseReference
+    //    private lateinit var database:  DatabaseReference
     private lateinit var database: DatabaseReference
     val databaseUrl = "https://numthesis-81c96-default-rtdb.firebaseio.com/" // Replace with your Firebase Realtime Database URL
 
@@ -39,7 +39,6 @@ class HomeFragment : Fragment() {
                 }
                 // Now itemList contains the data from the "IT" node
                 val linearLayout: LinearLayout = view.findViewById(R.id.ITCardContainer)
-                // val items = listOf("ជំនាន់ ទី២៦", "ជំនាន់ ទី២៧", "ជំនាន់ ទី២៨", "ជំនាន់ ទី២៩", "ជំនាន់ ទី៣០")
                 val adapter = cardAdapter(requireContext(), itemList)
                 {
                         clickedText -> navigateToThesisFragment(clickedText)
@@ -131,7 +130,7 @@ class HomeFragment : Fragment() {
     private fun navigateToThesisFragment(text: String) {
         val thesisFragment = ThesisFragment()
         val bundle = Bundle().apply {
-            putString("selectedText", text)
+            putString("submittedGroup", text)
         }
         thesisFragment.arguments = bundle
 

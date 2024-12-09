@@ -7,7 +7,7 @@ import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
 
-data class dataThesis(val thesisIcon: Int, val title: String, val des: String)
+data class dataThesis(val title: String, val des: String)
 
 class GroupAdapter(context: Context, private val thesis: List<dataThesis>) :
     ArrayAdapter<dataThesis>(context, 0, thesis) {
@@ -21,7 +21,7 @@ class GroupAdapter(context: Context, private val thesis: List<dataThesis>) :
         val titleTextView = view.findViewById<TextView>(R.id.title)
         val  desTextView = view.findViewById<TextView>(R.id.des)
 
-        iconView.setImageResource(thesisPo.thesisIcon)
+        iconView.setImageResource(R.drawable.pdf)
         titleTextView.text = thesisPo.title
         desTextView.text = thesisPo.des
 
