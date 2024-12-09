@@ -27,6 +27,7 @@ class HomeFragment : Fragment() {
         val itemList = ArrayList<Pair<String, String>>() // Replace String with your data type
         //database = FirebaseDatabase.getInstance().reference
         database = FirebaseDatabase.getInstance(databaseUrl).reference
+
         // Read data from Firebase for major IT
         database.child("IT").addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
@@ -52,33 +53,78 @@ class HomeFragment : Fragment() {
                 Log.e("FirebaseError", "Error: ${error.message}")
             }
         })
+
         // Read data from Firebase for major Accounting
         database.child("Accounting").addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 itemList.clear() // Clear the list before adding new data
-
+                for (childSnapshot in snapshot.children) {
+                    val Gen = childSnapshot.key
+                    val major: String = "Accounting"
+                    Gen?.let { itemList.add(Pair(Gen, major)) } // Add the non-null value to the list
+                }
+                // Now itemList contains the data from the "IT" node
+                val linearLayout: LinearLayout = view.findViewById(R.id.AccCardContainer)
+                val adapter = cardAdapter(requireContext(), itemList)
+                {
+                        Gen, major -> navigateToThesisFragment(Gen, major)
+                }
+                for (i in 0 until adapter.count) {
+                    val view = adapter.getView(i, null, linearLayout)
+                    linearLayout.addView(view)
+                }
             }
             override fun onCancelled(error: DatabaseError) {
                 // Handle database error
                 Log.e("FirebaseError", "Error: ${error.message}")
             }
         })
+
         // Read data from Firebase for major Management
         database.child("Management").addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 itemList.clear() // Clear the list before adding new data
-
+                for (childSnapshot in snapshot.children) {
+                    val Gen = childSnapshot.key
+                    val major: String = "Management"
+                    Gen?.let { itemList.add(Pair(Gen, major)) } // Add the non-null value to the list
+                }
+                // Now itemList contains the data from the "IT" node
+                val linearLayout: LinearLayout = view.findViewById(R.id.ManCardContainer)
+                val adapter = cardAdapter(requireContext(), itemList)
+                {
+                        Gen, major -> navigateToThesisFragment(Gen, major)
+                }
+                for (i in 0 until adapter.count) {
+                    val view = adapter.getView(i, null, linearLayout)
+                    linearLayout.addView(view)
+                }
             }
             override fun onCancelled(error: DatabaseError) {
                 // Handle database error
                 Log.e("FirebaseError", "Error: ${error.message}")
             }
         })
+
         // Read data from Firebase for major Management
         database.child("Robot").addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 itemList.clear() // Clear the list before adding new data
-
+                for (childSnapshot in snapshot.children) {
+                    val Gen = childSnapshot.key
+                    val major: String = "Robot"
+                    Gen?.let { itemList.add(Pair(Gen, major)) } // Add the non-null value to the list
+                }
+                // Now itemList contains the data from the "IT" node
+                val linearLayout: LinearLayout = view.findViewById(R.id.RoCardContainer)
+                val adapter = cardAdapter(requireContext(), itemList)
+                {
+                        Gen, major -> navigateToThesisFragment(Gen, major)
+                }
+                for (i in 0 until adapter.count) {
+                    val view = adapter.getView(i, null, linearLayout)
+                    linearLayout.addView(view)
+                }
             }
             override fun onCancelled(error: DatabaseError) {
                 // Handle database error
