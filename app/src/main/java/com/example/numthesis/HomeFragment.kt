@@ -1,14 +1,12 @@
 package com.example.numthesis
 
 import android.os.Bundle
-import android.text.TextUtils.replace
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import android.widget.Toast
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
@@ -26,7 +24,7 @@ class HomeFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_home, container, false)
-        val itemList = ArrayList<String>() // Replace String with your data type
+        val itemList = ArrayList<Pair<String, String>>() // Replace String with your data type
         //database = FirebaseDatabase.getInstance().reference
         database = FirebaseDatabase.getInstance(databaseUrl).reference
         // Read data from Firebase for major IT
@@ -35,13 +33,14 @@ class HomeFragment : Fragment() {
                 itemList.clear() // Clear the list before adding new data
                 for (childSnapshot in snapshot.children) {
                     val Gen = childSnapshot.key
-                    Gen?.let { itemList.add(it) } // Add the non-null value to the list
+                    val major: String = "IT"
+                    Gen?.let { itemList.add(Pair(Gen, major)) } // Add the non-null value to the list
                 }
                 // Now itemList contains the data from the "IT" node
                 val linearLayout: LinearLayout = view.findViewById(R.id.ITCardContainer)
                 val adapter = cardAdapter(requireContext(), itemList)
                 {
-                        clickedText -> navigateToThesisFragment(clickedText)
+                        Gen, major -> navigateToThesisFragment(Gen, major)
                 }
                 for (i in 0 until adapter.count) {
                     val view = adapter.getView(i, null, linearLayout)
@@ -88,10 +87,11 @@ class HomeFragment : Fragment() {
         })
         return view
     }
-    private fun navigateToThesisFragment(text: String) {
+    private fun navigateToThesisFragment(Gen: String, major: String) {
         val thesisFragment = ThesisFragment()
         val bundle = Bundle().apply {
-            putString("submittedGroup", text)
+            putString("submittedGen", Gen)
+            putString("submittedMajor", major)
         }
         thesisFragment.arguments = bundle
 
