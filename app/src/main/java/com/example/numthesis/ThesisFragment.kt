@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ListView
+import android.widget.TextView
 
 class ThesisFragment : Fragment() {
     override fun onCreateView(
@@ -14,6 +15,8 @@ class ThesisFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_thesis, container, false)
+        // Retrieve the submitted text
+        val submittedText = arguments?.getString("selectedText")
 
         val ThesisList = listOf(
             dataThesis(R.drawable.pdf, "ក្រុម ទី១","Mobile App"),
@@ -31,6 +34,20 @@ class ThesisFragment : Fragment() {
         val adapter = GroupAdapter(requireContext(), ThesisList)
         listView.adapter = adapter
 
+        // Retrieve the text passed as an argument
+        val text = arguments?.getString("submitted_gen")
+        // Example: Display the submitted text in a TextView
+        val textView: TextView = view.findViewById(R.id.genTextView)
+        textView.text = submittedText
         return view
+    }
+    companion object {
+        fun newInstance(submittedText: String): ThesisFragment {
+            val fragment = ThesisFragment()
+            val args = Bundle()
+            args.putString("submitted_gen", submittedText)
+            fragment.arguments = args
+            return fragment
+        }
     }
 }
