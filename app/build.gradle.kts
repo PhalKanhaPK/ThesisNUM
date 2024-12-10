@@ -1,9 +1,8 @@
-import com.android.build.api.dsl.ViewBinding
-
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.google.gms.google.services)
+
 }
 
 android {
@@ -44,6 +43,7 @@ android {
 dependencies {
     implementation ("com.google.firebase:firebase-database:20.2.0")  // Firebase Realtime Database SDK
     implementation ("com.google.firebase:firebase-auth:21.1.0")
+    implementation("com.google.firebase:firebase-auth:23.1.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
