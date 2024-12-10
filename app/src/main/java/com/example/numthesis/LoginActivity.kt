@@ -6,10 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var userEdt: EditText
@@ -35,6 +32,7 @@ class LoginActivity : AppCompatActivity() {
     }
     fun onRegisterNowClicked(view: View) {
         // Handle the registration process here
-
+        startActivity(Intent(this, RegisterActivity::class.java))
+        finish()
     }
 }
