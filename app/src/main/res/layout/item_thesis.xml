@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
     android:padding="8dp">
 
@@ -11,26 +12,48 @@
         android:layout_height="100dp"
         android:layout_marginEnd="8dp"
         android:src="@drawable/pdf"/>
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="269dp"
+        android:layout_height="match_parent"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:textColor="@color/white"
             android:layout_gravity="start"
-            android:text="title"/>
+            android:text="title"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/des"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:text="Description"
             android:textColor="@color/white"
-            android:text="Description"/>
+            android:textSize="16sp" />
     </LinearLayout>
 
+<!--    <RatingBar-->
+<!--        android:layout_width="38dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:numStars="1"-->
+<!--        android:backgroundTintMode="screen"-->
+<!--        android:progressDrawable="@drawable/baseline_favorite_border_24" />-->
+
+    <ImageButton
+        android:id="@+id/favoriteButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:src="@drawable/baseline_favorite_border_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:tint="@color/white" />
 </LinearLayout>
