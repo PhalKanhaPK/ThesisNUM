@@ -2,13 +2,12 @@ package com.example.numthesis
 
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageButton
 import android.widget.ListView
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
@@ -46,6 +45,16 @@ class ThesisFragment : Fragment() {
                     val listView: ListView = view.findViewById(R.id.list_thesis)
                     val adapter = GroupAdapter(requireContext(), thesisList)
                     listView.adapter = adapter
+                    // Add click listener to ListView
+//                    listView.setOnItemClickListener  { _, _, position, _ ->
+//                        // Get the clicked item
+//                        val selectedItem = thesisList[position]
+//
+//                        // Open PDF viewer activity with file name
+//                        val intent = Intent(requireContext(), PdfViewerActivity::class.java)
+//                        intent.putExtra("PDF_FILE_NAME", "${selectedItem.title}.pdf")
+//                        startActivity(intent)
+//                    }
                 }
             }
             override fun onCancelled(error: DatabaseError) {
@@ -53,12 +62,6 @@ class ThesisFragment : Fragment() {
                 Log.e("FirebaseError", "Error: ${error.message}")
             }
         })
-        // Create a list of Thesis
-//        val ThesisList = listOf(
-//            dataThesis("ក្រុម ទី១","Mobile App"),
-//            dataThesis("ក្រុម ទី២","Web Developer"),
-//            dataThesis("កក្រុម ទី៣","Desktop Application")
-//        )
         return view
     }
 }

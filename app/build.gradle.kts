@@ -43,7 +43,7 @@ android {
 dependencies {
     implementation ("com.google.firebase:firebase-database:20.2.0")  // Firebase Realtime Database SDK
     implementation ("com.google.firebase:firebase-auth:21.1.0")
-    implementation("com.google.firebase:firebase-auth:23.1.0")
+    implementation ("com.tom-roush:pdfbox-android:2.0.27.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
