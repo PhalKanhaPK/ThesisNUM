@@ -18,6 +18,7 @@ class PdfViewerActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
         // Retrieve the PDF file name from the Intent
         val fileName = intent.getStringExtra("PDF_FILE_NAME")
 

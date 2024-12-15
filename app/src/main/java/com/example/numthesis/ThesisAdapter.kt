@@ -33,7 +33,7 @@ class GroupAdapter(context: Context, private val thesis: List<dataThesis>) :
             // Example: Start PDF Viewer Activity
             val intent = Intent(context, PdfViewerActivity::class.java)
             intent.putExtra("PDF_FILE_NAME", "${thesisPo.title}.pdf")
-//            intent.putExtra("PDF_FILE_NAME", "abc.pdf")
+//            intent.putExtra("PDF_FILE_NAME", "ក្រុមទី១.pdf")
             context.startActivity(intent)
         }
         return view
