@@ -4328,3 +4328,390 @@ BUILD SUCCESSFUL in 21s
 2024-12-15T22:38:00.824+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 398688256 free
 2024-12-15T22:38:00.825+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
 2024-12-15T22:38:00.825+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 398688256 free
+2024-12-15T22:38:05.823+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 339103744 free
+2024-12-15T22:38:05.823+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:38:05.823+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 339103744 free
+2024-12-15T22:38:07.800+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:07.801+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:07.802+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:07.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:07.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:07.806+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:07.808+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:07.808+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:07.808+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:10.821+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 358023168 free
+2024-12-15T22:38:10.827+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:38:10.828+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 358023168 free
+2024-12-15T22:38:15.834+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 342519808 free
+2024-12-15T22:38:15.835+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:38:15.836+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 342519808 free
+2024-12-15T22:38:17.799+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:17.802+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:17.804+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:17.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:17.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:17.806+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:17.809+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:17.809+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:17.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:20.829+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 354414592 free
+2024-12-15T22:38:20.830+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:38:20.830+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 354414592 free
+2024-12-15T22:38:25.818+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 332771328 free
+2024-12-15T22:38:25.819+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:38:25.819+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 332771328 free
+2024-12-15T22:38:27.819+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:27.819+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:27.820+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:27.823+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:27.823+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:27.824+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:27.833+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:27.834+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:27.836+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:30.829+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 323194880 free
+2024-12-15T22:38:30.831+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:38:30.831+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 323194880 free
+2024-12-15T22:38:35.821+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 345366528 free
+2024-12-15T22:38:35.821+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:38:35.821+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 345366528 free
+2024-12-15T22:38:37.799+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:37.800+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:37.801+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:37.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:37.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:37.804+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:37.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:37.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:37.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:40.828+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 320811008 free
+2024-12-15T22:38:40.828+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:38:40.828+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 320811008 free
+2024-12-15T22:38:45.814+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 322228224 free
+2024-12-15T22:38:45.814+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:38:45.814+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 322228224 free
+2024-12-15T22:38:47.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:47.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:47.804+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:47.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:47.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:47.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:47.815+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:47.815+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:47.816+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:57.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:57.804+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:57.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:57.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:57.811+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:57.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:38:57.815+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:38:57.816+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:38:57.816+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:07.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:07.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:07.806+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:07.818+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:07.818+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:07.819+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:07.831+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:07.832+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:07.844+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:10.880+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 594456576 free
+2024-12-15T22:39:10.880+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:39:10.880+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 594456576 free
+2024-12-15T22:39:15.872+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 420737024 free
+2024-12-15T22:39:15.874+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:39:15.875+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 420737024 free
+2024-12-15T22:39:17.800+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:17.801+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:17.802+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:17.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:17.804+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:17.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:17.807+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:17.807+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:17.808+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:25.825+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 783925248 free
+2024-12-15T22:39:25.826+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:39:25.826+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 783925248 free
+2024-12-15T22:39:27.802+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:27.802+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:27.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:27.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:27.806+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:27.806+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:27.818+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:27.818+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:27.819+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:30.833+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 628183040 free
+2024-12-15T22:39:30.834+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:39:30.834+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 628183040 free
+2024-12-15T22:39:35.822+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 615923712 free
+2024-12-15T22:39:35.830+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:39:35.831+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 615923712 free
+2024-12-15T22:39:37.808+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:37.808+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:37.808+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:37.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:37.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:37.811+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:37.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:37.829+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:37.831+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:40.823+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 558018560 free
+2024-12-15T22:39:40.823+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:39:40.823+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 558018560 free
+2024-12-15T22:39:45.816+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 553381888 free
+2024-12-15T22:39:45.816+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:39:45.816+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 553381888 free
+2024-12-15T22:39:47.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:47.811+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:47.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:47.818+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:47.819+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:47.821+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:47.825+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:47.825+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:47.827+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:50.830+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 546009088 free
+2024-12-15T22:39:50.831+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:39:50.831+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 546009088 free
+2024-12-15T22:39:55.831+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 527650816 free
+2024-12-15T22:39:55.831+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:39:55.831+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 527650816 free
+2024-12-15T22:39:57.798+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:57.799+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:57.799+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:57.801+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:57.802+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:57.802+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:39:57.804+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:39:57.804+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:39:57.804+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:00.815+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 501051392 free
+2024-12-15T22:40:00.823+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:40:00.823+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 501051392 free
+2024-12-15T22:40:05.819+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 493752320 free
+2024-12-15T22:40:05.820+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:40:05.820+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 493752320 free
+2024-12-15T22:40:07.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:07.807+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:07.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:07.816+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:07.817+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:07.818+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:07.822+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:07.822+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:07.823+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:10.831+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 478937088 free
+2024-12-15T22:40:10.832+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:40:10.832+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 478937088 free
+2024-12-15T22:40:15.826+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 437248000 free
+2024-12-15T22:40:15.826+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:40:15.826+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 437248000 free
+2024-12-15T22:40:17.796+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:17.796+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:17.797+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:17.800+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:17.800+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:17.801+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:17.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:17.804+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:17.805+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:20.833+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 517431296 free
+2024-12-15T22:40:20.834+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:40:20.834+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 517431296 free
+2024-12-15T22:40:25.822+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 532054016 free
+2024-12-15T22:40:25.823+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:40:25.823+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 532054016 free
+2024-12-15T22:40:27.795+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:27.795+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:27.796+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:27.798+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:27.798+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:27.798+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:27.811+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:27.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:27.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:30.832+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 471101440 free
+2024-12-15T22:40:30.833+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:40:30.833+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 471101440 free
+2024-12-15T22:40:35.829+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 422051840 free
+2024-12-15T22:40:35.829+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:40:35.829+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 422051840 free
+2024-12-15T22:40:37.800+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:37.800+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:37.802+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:37.806+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:37.806+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:37.807+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:37.809+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:37.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:37.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:40.835+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 512208896 free
+2024-12-15T22:40:40.836+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:40:40.836+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 512208896 free
+2024-12-15T22:40:45.823+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 479502336 free
+2024-12-15T22:40:45.823+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:40:45.823+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 479502336 free
+2024-12-15T22:40:47.808+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:47.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:47.811+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:47.820+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:47.821+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:47.826+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:47.828+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:47.828+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:47.829+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:50.826+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 490496000 free
+2024-12-15T22:40:50.826+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:40:50.827+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 490496000 free
+2024-12-15T22:40:55.824+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 398512128 free
+2024-12-15T22:40:55.826+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:40:55.826+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 398512128 free
+2024-12-15T22:40:57.807+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:57.807+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:57.808+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:57.809+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:57.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:57.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:40:57.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:40:57.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:40:57.813+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:00.973+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 476332032 free
+2024-12-15T22:41:00.973+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:41:00.973+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 476332032 free
+2024-12-15T22:41:05.894+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 370692096 free
+2024-12-15T22:41:05.895+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:41:05.902+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 370692096 free
+2024-12-15T22:41:07.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:07.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:07.808+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:07.811+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:07.811+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:07.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:07.813+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:07.814+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:07.814+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:10.832+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 470237184 free
+2024-12-15T22:41:10.832+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:41:10.832+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 470237184 free
+2024-12-15T22:41:15.824+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 394784768 free
+2024-12-15T22:41:15.824+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:41:15.825+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 394784768 free
+2024-12-15T22:41:17.795+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:17.796+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:17.797+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:17.800+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:17.800+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:17.802+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:17.811+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:17.813+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:17.820+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:20.819+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 830464000 free
+2024-12-15T22:41:20.820+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:41:20.820+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 830464000 free
+2024-12-15T22:41:25.824+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 825446400 free
+2024-12-15T22:41:25.824+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:41:25.824+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 825446400 free
+2024-12-15T22:41:27.791+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:27.791+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:27.793+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:27.794+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:27.795+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:27.795+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:27.797+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:27.797+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:27.798+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:30.835+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 479854592 free
+2024-12-15T22:41:30.836+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:41:30.837+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 479854592 free
+2024-12-15T22:41:35.831+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 529887232 free
+2024-12-15T22:41:35.832+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:41:35.833+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 529887232 free
+2024-12-15T22:41:37.835+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:37.835+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:37.844+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:37.855+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:37.855+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:37.856+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:37.857+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:37.857+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:37.858+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:41.577+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 421076992 free
+2024-12-15T22:41:41.577+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:41:41.577+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 421076992 free
+2024-12-15T22:41:45.826+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 465969152 free
+2024-12-15T22:41:45.829+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:41:45.829+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 465969152 free
+2024-12-15T22:41:47.824+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:47.825+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:47.829+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:47.831+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:47.831+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:47.832+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:47.833+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:47.833+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:47.834+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:50.825+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 397266944 free
+2024-12-15T22:41:50.825+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:41:50.825+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 397266944 free
+2024-12-15T22:41:55.824+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 393621504 free
+2024-12-15T22:41:55.824+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:41:55.824+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 393621504 free
+2024-12-15T22:41:57.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:57.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:57.813+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:57.815+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:57.815+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:57.815+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:41:57.818+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:41:57.818+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:41:57.819+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:42:00.823+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 386588672 free
+2024-12-15T22:42:00.824+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:42:00.825+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 386588672 free
+2024-12-15T22:42:05.829+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 358789120 free
+2024-12-15T22:42:05.841+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:42:05.841+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 358789120 free
+2024-12-15T22:42:07.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:42:07.810+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:42:07.811+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:42:07.814+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:42:07.814+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:42:07.815+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:42:07.816+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:42:07.816+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:42:07.817+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:42:10.830+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 343212032 free
+2024-12-15T22:42:10.831+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:42:10.831+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 343212032 free
+2024-12-15T22:42:15.815+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 319336448 free
+2024-12-15T22:42:15.815+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:42:15.815+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 319336448 free
+2024-12-15T22:42:17.803+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:42:18.138+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:42:18.218+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:42:18.220+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:42:18.220+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:42:18.221+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:42:18.222+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:42:18.223+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:42:18.223+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:42:20.824+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 654008320 free
+2024-12-15T22:42:20.825+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:42:20.825+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 654008320 free
+2024-12-15T22:42:25.824+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 563707904 free
+2024-12-15T22:42:25.824+0700 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 808 of memory
+2024-12-15T22:42:25.824+0700 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 847619276 physical memory requested, 0 released, 563707904 free
+2024-12-15T22:42:27.812+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:42:27.813+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:42:27.814+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:42:27.818+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:42:27.818+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:42:27.819+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-15T22:42:27.820+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-15T22:42:27.821+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-15T22:42:27.821+0700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
