@@ -20,10 +20,10 @@ class RegisterActivity : AppCompatActivity() {
             val email = binding.EmailEditText.text.toString()
             val password = binding.PasswordEditText.text.toString()
             if (email.isNotEmpty() && password.isNotEmpty()) { // Ensure both are non-empty
-                MainActivity.auth.createUserWithEmailAndPassword(email, password)
+                MainActivity1.auth.createUserWithEmailAndPassword(email, password)
                     .addOnCompleteListener { task ->
                         if (task.isSuccessful) {
-                            startActivity(Intent(this, LoginActivity::class.java))
+                            startActivity(Intent(this, SignInActivity::class.java))
                             finish()
                         }
                     }.addOnFailureListener { exception ->
@@ -35,7 +35,7 @@ class RegisterActivity : AppCompatActivity() {
         }
     }
     fun onLoginNowClicked(view: View) {
-        startActivity(Intent(this, LoginActivity::class.java))
+        startActivity(Intent(this,SignInActivity::class.java))
         finish()
     }
 }

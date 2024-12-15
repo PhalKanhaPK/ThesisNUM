@@ -18,7 +18,7 @@ class AccountFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_account, container, false)
         val btnLogout = view.findViewById<Button>(R.id.btnLogout)
         btnLogout?.setOnClickListener {
-            val intent = Intent(requireContext(), LoginActivity::class.java)
+            val intent = Intent(requireContext(), SignInActivity::class.java)
             startActivity(intent)
         }
 

@@ -14,24 +14,29 @@
         android:id="@+id/fragmentContainerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="78dp"
         android:background="@drawable/gradent_color_background"
-        />
+        tools:layout_editor_absoluteX="-52dp"
+        tools:layout_editor_absoluteY="316dp" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigationButton"
         android:layout_width="397dp"
         android:layout_height="76dp"
-        android:textAlignment="center"
         android:background="@drawable/round_conner"
+        android:textAlignment="center"
         app:itemActiveIndicatorStyle="@style/MaterialAlertDialog.Material3"
         app:itemIconSize="40dp"
         app:itemIconTint="@android:color/white"
         app:itemTextAppearanceActive="@style/Animation.Design.BottomSheetDialog"
         app:itemTextAppearanceInactive="@style/Animation.Design.BottomSheetDialog"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:menu="@menu/navigation_button"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="7dp">
+        tools:ignore="MissingConstraints">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
