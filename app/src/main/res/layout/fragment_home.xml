@@ -45,11 +45,15 @@
                 android:gravity="center"
                 >
                 <EditText
-                    android:layout_width="wrap_content"
+                    android:id="@+id/search_thesis"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/gray"
                     android:inputType="text"
-                    android:hint="Find any thesis..."/>
+                    android:hint="Find any thesis..."
+                    android:padding="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:background="@drawable/search_background"/>
             </LinearLayout>
 
             <!--Information Technology-->

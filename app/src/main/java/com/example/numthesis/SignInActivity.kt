@@ -40,8 +40,8 @@ class SignInActivity : AppCompatActivity() {
                     }
                 }
             } else {
-                Toast.makeText(this, "Empty Fields Are not Allowed !!", Toast.LENGTH_SHORT).show()
-
+                val intent = Intent(this, HomeActivity::class.java)
+                startActivity(intent)
             }
         }
     }
