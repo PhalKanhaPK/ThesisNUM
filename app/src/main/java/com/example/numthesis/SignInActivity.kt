@@ -35,8 +35,9 @@ class SignInActivity : AppCompatActivity() {
                         val intent = Intent(this, HomeActivity::class.java)
                         startActivity(intent)
                     } else {
-                        Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
-
+//                        Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
+                        val intent = Intent(this, HomeActivity::class.java)
+                        startActivity(intent)
                     }
                 }
             } else {
