@@ -22,7 +22,7 @@
                 android:layout_gravity="center"
                 android:outlineAmbientShadowColor="@color/white"
                 android:outlineSpotShadowColor="@color/white"
-                android:src="@drawable/profile" />
+                android:src="@drawable/major" />
 
             <TextView
                 android:id="@+id/lblUsername"
